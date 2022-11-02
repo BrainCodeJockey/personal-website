@@ -1,0 +1,39 @@
+.work {
+  width: 100%;
+  background-color: #2c2937;
+}
+
+.work__container {
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0;
+}
+
+.work__headline {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.work__cv {
+  padding-top: 4rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.work__cv ul {
+  background: #3e3a4d;
+  border-left: 6px solid var(--color-secondary);
+  list-style-type: none;
+  width: 350px;
+  padding: 1.2rem 1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.work__cv ul li:first-child {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+}

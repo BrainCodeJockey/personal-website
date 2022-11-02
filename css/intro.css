@@ -1,0 +1,43 @@
+/* About Me */
+
+.intro {
+  width: 100%;
+  background-color: #2c2937;
+}
+
+.intro__content {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  padding: 5rem 0;
+  grid-gap: 2.5rem;
+}
+
+.intro__content__headline {
+  color: #fffcf2;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.intro__content__text {
+  color: #fffcf2;
+  font-weight: 200;
+}
+
+.sayhello {
+  font-size: 1rem;
+  background: #3e3a4d;
+  margin-top: 1.3rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  border-radius: 3px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: 0.4s;
+}
+
+.sayhello:hover {
+  background-color: var(--color-secondary);
+  transform: translateX(12px);
+}
