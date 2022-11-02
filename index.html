@@ -2,31 +2,101 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
+    <title>Alexander Unmuth | web Developer</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexander Unmuth > Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="font-face.css">
 
+  </head>
   <body>
     <header class="color__primary">
-        <div>
-          <!-- <img class="profile__picture" src="img/alex-profil.png" alt="" /> -->
-        </div>
+      
+      <nav class="container__fluid">
+        <ul class="navigation__links" role="list">
+          <li><a href="#about">About</a></li>
+          <!-- Verbidungen fehlen noch -->
+          <li><a href="#skills">Skills</a></li>  
+          <li><a href="#contact">Contact</a></li> 
+        </ul>
+      </nav>
+
+      <div class="container__fluid">
+        <div class="profile__container">
+        <img class="profile__picture" src="img/alex-profile.png" alt=""/>
+      </div>
 
         <section class="header__content">
+          <div class="profile">
             <h1>
               <span class="intro__text">Hi there, my name is</span><br />
               <span class="intro__text-large">Alexander Unmuth</span><br />
-              <span class="intro__text"> I build maybe apps and love the web.</span>
+              <span class="intro__text"> I build apps and love the web</span>
             </h1>
-            <ul class="link" role="list">
+            <ul class="small__link" role="list">
               <li>
-                <a href="https://github.com/hirnstromwelle"> GitHub</a>
+                <a href="https://github.com/Hirnstromwelle"> GitHub</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/alexander-unmuth/">
+                  LinkedIn</a
+                >
               </li>
             </ul>
           </div>
+
+          <cite>
+            <span class="orange__color"> "Future in the Making!" </span>
+            <br />
+            - Dr. Uwe Lauber, CEO - M.A.N. Energy Solution
+          </cite>
         </section>
+      </div>
     </header>
+
+    <main>
+      <section class="intro">
+        <div class="intro__content" id="about">
+          <div>
+            <h3 class="intro__content__headline">About me.</h3>
+            <p class="intro__content__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+              perspiciatis soluta dicta excepturi aliquid temporibus labore
+            </p>
+            <p class="intro__content__text">
+              Now working as a developer in creating intuitve designs and
+              building functional web applications.
+            </p>
+            <!-- Verbidung fehlen noch -->
+            <a class="sayhello" href="#contact"> &raquo; Just say hello!</a>
+          </div>
+      </section>
+    </main>
+
+    <section class="work">
+      <div class="work__container">
+        <h3 class="work__headline">
+          Work Experience <span class="color__secondary">/</span> Education
+        </h3>
+        <div class="work__cv" role="list">
+          <ul>
+            <li>XXXX</li>
+            <li>Etwas Text</li>
+            <li>Etwas Text</li>
+          </ul>
+          <ul>
+            <li>XXX</li>
+            <li>Etwas Text</li>
+            <li>Etwas Text</li>
+          </ul>
+
+          <ul>
+            <li>XXXX</li>
+            <li>Etwas Text</li>
+            <li>Etwas Text</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,0 +1,104 @@
+.container__fluid {
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+/* Navigationsleiste */
+
+nav {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+}
+
+.navigation__links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  padding: 0.5rem;
+}
+
+.navigation__links a {
+  color: #eb5e28;
+  transition: 0.4s;
+}
+
+.navigation__links ul li a {
+  list-style-type: none;
+}
+
+.navigation__links a:hover {
+  color: white;
+  padding-right: 1.6rem;
+}
+
+/* Profil Bild */
+
+.profile {
+  position: relative;
+  top: -80px;
+}
+
+.profile__container {
+  position: relative;
+}
+
+.profile__picture {
+  width: 400px;
+  position: relative;
+}
+
+/* Profiltext */
+
+.header__content {
+  min-height: 50vh;
+  grid-template-columns: 1fr;
+}
+
+.intro__text {
+  font-size: 1.5rem;
+}
+
+.intro__text-large {
+  font-size: 3rem;
+}
+
+/* Small Link  */
+
+.small__link {
+  color: var(--color-secondary);
+  font-family: sans-serif;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.small__link li {
+  list-style-type: none;
+}
+
+.small__link a {
+  color: #fffcf2;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  background-color: grey;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.small__link a:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-5px);
+}
